@@ -1,0 +1,14 @@
+{
+  "name": "pj-01",
+  "version": "1.0.0",
+  "description": "pruebas automatizadas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yomero",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.3.0"
+  }
+}
