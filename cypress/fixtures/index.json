@@ -1,0 +1,5 @@
+{
+  "subscribeBox": "#susbscribe_email",
+  "subscribeButton": "#subscribe",
+  "alert": ".alert-success"
+}
