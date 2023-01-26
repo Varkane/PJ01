@@ -23,6 +23,9 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+import 'cypress-file-upload';
+import './commands';
+require('cypress-downloadfile/lib/downloadFileCommand')
 
 Cypress.Commands.add('login', (username, password)=>{
     cy.fixture('index').then((index)=>{
@@ -32,3 +35,4 @@ Cypress.Commands.add('login', (username, password)=>{
         cy.get(index.button).click();
     })
 })
+
