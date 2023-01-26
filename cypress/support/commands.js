@@ -24,9 +24,11 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
-Cypress.Commands.add('search', (value)=>{
+Cypress.Commands.add('login', (username, password)=>{
     cy.fixture('index').then((index)=>{
-        cy.get(index.subscribeBox).type(value);
-        cy.get(index.subscribeButton).click();
+        cy.get(index.login).click();
+        cy.get(index.username).type(username);
+        cy.get(index.password).type(password);
+        cy.get(index.button).click();
     })
 })

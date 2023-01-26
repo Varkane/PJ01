@@ -1,5 +1,6 @@
 {
-  "subscribeBox": "#susbscribe_email",
-  "subscribeButton": "#subscribe",
-  "alert": ".alert-success"
+   "login": "[href='/user/login']",
+  "username": "#login_email",
+  "password": "#login_password",
+  "button": "#log_in"
 }

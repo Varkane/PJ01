@@ -3,6 +3,6 @@
 describe('Search elements', () => {
   it('search for elements with multiple results', () => {
       cy.visit('/');
-      cy.search('rigar@gma.com')      
+      cy.login('Rigama','gameover');    
     })
   })
